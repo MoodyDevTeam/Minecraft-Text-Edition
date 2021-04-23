@@ -117,7 +117,7 @@ void playerStats() {
   cout << "4. " << inventory[3] << endl;
   cout << "5. " << inventory[4] << endl;
   YELLOW
-  cout << "<- - - Statistical Data - - - > \n";
+  cout << "<- - - Statistics - - - > \n";
   RED
   cout << "Health: ";
  
@@ -133,8 +133,10 @@ void playerStats() {
 void buildHouse() {
 
   BLUE
+  slowPrint("                            ///             \n");
+  slowPrint("                           \\\             \n");
   slowPrint("                           ====             \n");
-  slowPrint("                           !!!!             \n");
+  slowPrint("                           ||||             \n");
   slowPrint("          ==========================        \n");
   slowPrint("        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%      \n");
   slowPrint("       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   \n");
